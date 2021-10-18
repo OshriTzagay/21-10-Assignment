@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Presentation HW 21.10</title>
+  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    #sendBtn {
+      background-color: blanchedalmond;
+      padding: 20px;
+      width: 200px;
+    }
+    #sendBtn:hover {
+      background-color: black;
+      color: white;
+      padding: 20px;
+      width: 200px;
+      font-family: "IM Fell English SC", serif;
+      font-size: 20px;
+    }
+    h1 {
+      font-family: "IM Fell English SC", serif;
+      font-size: 100px;
+    }
+    h3 {
+      font-size: 50px;
+      font-family: "IM Fell English SC", serif;
+    }
+    body {
+      background-color: darkkhaki;
+    }
+    #myForm,
+    #myForm h3 {
+      color: wheat;
+      border: 5px wheat solid;
+      border-bottom: 7px solid black;
+      width: 40vw;
+    }
+    #myForm label {
+      border-bottom: bisque 3px solid;
+      font-size: xx-large;
+      font-family: "IM Fell English SC", serif;
+    }
+    #myForm input {
+      border: black 3px solid;
+      font-size: large;
+    }
+    #Selector{
+      font-family: "IM Fell English SC", serif;
+      font-size:50px;
+      padding: 10px;
+      text-align: center;
+      border:3px black solid;
+    }
+    #Selector:hover{
+      font-family: "IM Fell English SC", serif;
+      font-size:50px;
+      padding: 10px;
+      text-align: center;
+      background-color: tan;
+    }
+    #Table{
+      text-align: center;
+      border: solid black 5px;
+    }
+    #tr1{
+      border: 4px solid black;
+      font-size: x-large;
+    }
+    #tr2{
+      border: 4px solid black;
+      font-size: x-large;
+    }
+    td{
+      border: 4px solid black
+    }
+    input{
+      font-family: "IM Fell English SC", serif;
+    }
+    input:focus{
+      background-color: black;
+      color: white;
+      box-shadow: white 5px 5px 5px 5px;
+    }
+  </style>
+  <body>
+    <center>
+      <h1>
+        Static Functions HWork
+        <h3>21/10</h3>
+      </h1>
+      <hr />
+      <form id="myForm">
+        <h3>Let's Add Your Car!</h3>
+        <select name="Selector" id="Selector">
+          <option value="Bike">Bike</option>
+          <option value="Bus">Bus</option>
+          <option value="Airplane">Airplane</option>
+        </select>
+        <br /><br />
+        <label for="">Tires?</label>  <br>
+        <input id="tiresInput" type="text" />
+        <br /><br />
+        <label for="">Size?</label> <br>
+        <input id="sizeInput" type="text" />
+        <br /><br />
+        <label for="">Color?</label> <br>
+        <input id="colorInput" type="text" />
+        <br /><br /><br />
+        <button type="button" id="sendBtn">SEND!</button>
+      </form>
+      <table id="Table">
+      <tr id="tr1"></tr>
+      <tr id="tr2"></tr>
+
+              </table>
+    </center>
+    <script src="main.js"></script>
+  </body>
+</html>
